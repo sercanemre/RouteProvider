@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RouteRepository", "src\RouteRepository\RouteRepository.csproj", "{68443BF5-20B2-40D4-B777-32A612770D6D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{978938FA-7F05-47C8-95BD-FD005705E27D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{7BAF5650-A249-45DC-966A-A7CBF6F90410}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RouteProvider.API", "src\RouteProvider.API\RouteProvider.API.csproj", "{416E88A7-89DD-4E99-A2EB-EEDA11213374}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RouteProvider.Test", "test\RouteProvider.Test\RouteProvider.Test.csproj", "{5B0A567C-44DB-4853-A65E-FD2EB81B45C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CD0C4739-5EFD-4C67-89EC-3A2405BA438F}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68443BF5-20B2-40D4-B777-32A612770D6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68443BF5-20B2-40D4-B777-32A612770D6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68443BF5-20B2-40D4-B777-32A612770D6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68443BF5-20B2-40D4-B777-32A612770D6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{416E88A7-89DD-4E99-A2EB-EEDA11213374}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{416E88A7-89DD-4E99-A2EB-EEDA11213374}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{416E88A7-89DD-4E99-A2EB-EEDA11213374}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{416E88A7-89DD-4E99-A2EB-EEDA11213374}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B0A567C-44DB-4853-A65E-FD2EB81B45C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B0A567C-44DB-4853-A65E-FD2EB81B45C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B0A567C-44DB-4853-A65E-FD2EB81B45C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B0A567C-44DB-4853-A65E-FD2EB81B45C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{68443BF5-20B2-40D4-B777-32A612770D6D} = {978938FA-7F05-47C8-95BD-FD005705E27D}
+		{416E88A7-89DD-4E99-A2EB-EEDA11213374} = {978938FA-7F05-47C8-95BD-FD005705E27D}
+		{5B0A567C-44DB-4853-A65E-FD2EB81B45C4} = {7BAF5650-A249-45DC-966A-A7CBF6F90410}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C05C339-09CA-47EC-B060-6862F2754AC3}
+	EndGlobalSection
+EndGlobal
